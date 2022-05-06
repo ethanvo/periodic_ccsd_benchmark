@@ -1,0 +1,95 @@
+Job execution start: Fri Apr 29 09:59:01 EDT 2022
+Shared library path: /burg/berkelbach/users/eav2136/builds/spack/develop/spack/var/spack/environments/pyscf-gcc-openblas/.spack-env/view/lib64:/burg/berkelbach/users/eav2136/builds/spack/develop/spack/var/spack/environments/pyscf-gcc-openblas/.spack-env/view/lib:/cm/shared/apps/slurm/current/lib64/slurm:/cm/shared/apps/slurm/current/lib64
+Slurm Job ID is: 1957288
+Slurm Job name is: c_frozen_orbital
+Slurm node mem is: 184320
+g066
+output file: c_frozen_orbital.out
+None
+EIP Energy: -18.46699155041625 eV
+EEA Energy: 22.719855377449566 eV
+Band gap: 4.252863827033316 eV
+[25]
+EIP Energy: -18.469199643103526 eV
+EEA Energy: 22.72172133600606 eV
+Band gap: 4.252521692902536 eV
+[25, 24]
+EIP Energy: -18.47697861678655 eV
+EEA Energy: 22.728175622086052 eV
+Band gap: 4.251197005299503 eV
+[25, 24, 23]
+EIP Energy: -18.492382767395544 eV
+EEA Energy: 22.745516450645933 eV
+Band gap: 4.253133683250391 eV
+[25, 24, 23, 22]
+EIP Energy: -18.503152657048588 eV
+EEA Energy: 22.75755538908281 eV
+Band gap: 4.254402732034222 eV
+[25, 24, 23, 22, 21]
+EIP Energy: -18.54668899297561 eV
+EEA Energy: 22.788075523023288 eV
+Band gap: 4.2413865300476745 eV
+[25, 24, 23, 22, 21, 20]
+EIP Energy: -18.573348017638157 eV
+EEA Energy: 22.838479153603256 eV
+Band gap: 4.265131135965099 eV
+[25, 24, 23, 22, 21, 20, 19]
+EIP Energy: -18.61738069375673 eV
+EEA Energy: 22.868423733943825 eV
+Band gap: 4.251043040187095 eV
+[25, 24, 23, 22, 21, 20, 19, 18]
+EIP Energy: -18.64043338376879 eV
+EEA Energy: 22.90754618809781 eV
+Band gap: 4.26711280432902 eV
+[25, 24, 23, 22, 21, 20, 19, 18, 17]
+EIP Energy: -18.711628648903186 eV
+EEA Energy: 22.940678561994414 eV
+Band gap: 4.229049913091229 eV
+[25, 24, 23, 22, 21, 20, 19, 18, 17, 16]
+EIP Energy: -18.77664439267337 eV
+EEA Energy: 22.963826694150548 eV
+Band gap: 4.18718230147718 eV
+[25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15]
+EIP Energy: -18.833120748476425 eV
+EEA Energy: 23.036382223011383 eV
+Band gap: 4.20326147453496 eV
+[25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14]
+EIP Energy: -18.86109256448652 eV
+EEA Energy: 23.07981112710791 eV
+Band gap: 4.218718562621393 eV
+[25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13]
+EIP Energy: -18.896956902033338 eV
+EEA Energy: 23.121104056458048 eV
+Band gap: 4.224147154424711 eV
+[25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12]
+EIP Energy: -18.935669989968364 eV
+EEA Energy: 23.200736490202544 eV
+Band gap: 4.26506650023418 eV
+[25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11]
+EIP Energy: -18.988143032820506 eV
+EEA Energy: 23.28381808213926 eV
+Band gap: 4.295675049318754 eV
+[25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10]
+EIP Energy: -19.211593260766183 eV
+EEA Energy: 23.429777081430185 eV
+Band gap: 4.218183820664001 eV
+[25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9]
+EIP Energy: -19.257714584518098 eV
+EEA Energy: 23.5613494911242 eV
+Band gap: 4.303634906606103 eV
+[25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8]
+EIP Energy: -19.328523878586402 eV
+EEA Energy: 23.905433709250804 eV
+Band gap: 4.5769098306644 eV
+[25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7]
+EIP Energy: -19.373985171213945 eV
+EEA Energy: 24.18658168351383 eV
+Band gap: 4.812596512299886 eV
+[25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6]
+EIP Energy: -19.277195810971808 eV
+EEA Energy: 24.317831040574614 eV
+Band gap: 5.040635229602807 eV
+[25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5]
+EIP Energy: -18.921051927805113 eV
+EEA Energy: 24.33366763741915 eV
+Band gap: 5.412615709614038 eV

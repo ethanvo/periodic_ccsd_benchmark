@@ -1,0 +1,2 @@
+/burg/berkelbach/users/eav2136/builds/pyscf/gcc-openblas/pyscf/pyscf/pbc/gto/cell.py:243: UserWarning: Function cell.dumps drops attribute a because it is not JSON-serializable
+  warnings.warn(msg)

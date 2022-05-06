@@ -31,7 +31,7 @@ def calculate_norbs(formula, basis):
     nmo = cell.nao
     nocc = cell.nelectron // 2
     nvir = nmo - nocc
-    return nmo, nocc, nvir
+    return int(nmo), int(nocc), int(nvir)
 
 material_components = {
         'c':['C'], 

@@ -113,18 +113,20 @@ materials = ['c', 'si', 'sic', 'bn', 'bp', 'aln', 'alp', 'mgo', 'mgs', 'lih', 'l
 
 for formula in materials:
     for basis_name in basis_sets:
-        basis = get_basis(formula, material_components, basis_sets[basis_name])
-        nmo, nocc, nvir = calculate_norbs(formula, basis)
-        material = dict([
-            ('formula', formula),
-            ('basis', basis),
-            ('vb_scaled_center', vb_scaled_centers[formula]),
-            ('vb_nroots', vb_nroots[formula]),
-            ('cb_scaled_center', cb_scaled_centers[formula]),
-            ('cb_nroots', cb_nroots[formula]),
-            ('nmo', nmo),
-            ('nocc', nocc),
-            ('nvir', nvir)
-            ])
-        filename = 'data/' + formula + '_' + basis_name + '.json'
-        dump(material, filename)
+        for kdensity in range(1, 5):
+            basis = get_basis(formula, material_components, basis_sets[basis_name])
+            nmo, nocc, nvir = calculate_norbs(formula, basis)
+            material = dict([
+                ('formula', formula),
+                ('basis', basis),
+                ('vb_scaled_center', vb_scaled_centers[formula]),
+                ('vb_nroots', vb_nroots[formula]),
+                ('cb_scaled_center', cb_scaled_centers[formula]),
+                ('cb_nroots', cb_nroots[formula]),
+                ('nmo', nmo),
+                ('nocc', nocc),
+                ('nvir', nvir),
+                ('kdensity', kdensity)
+                ])
+            filename = 'data/' + formula + '_' + basis_name + '_' + str(kdensity) + '.json'
+            dump(material, filename)
